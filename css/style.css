@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 186, 186);
+    color: rgb(93, 0, 0);
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+nav {
+    height: 100px;
+    display: flex;
+    background-color: rgb(253, 98, 98);
+    gap: 20px;
+    align-items: center;
+    border-bottom: 2px rgb(253, 98, 98) solid;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: rgb(93, 0, 0);
+    background-color: rgb(252, 167, 167);
+    padding: 20px;
+    height: 20px;
+    border: 2px rgb(93, 0, 0) solid;
+    border-radius: 5px;
+}
+
+nav img {
+    height: 100%;
+    border: 2px rgb(93, 0, 0) solid;
+    border-radius: 5px;
+}
+nav a:hover {
+    background-color: rgb(93, 0, 0);
+    color: rgb(252, 167, 167);
+}
+
+.product {
+    display: flex;
+    gap: 40px;
+    border-bottom: 2px rgb(93, 0, 0) solid;
+    padding-bottom: 50px;
+}
+
+.left-column {
+    border: 3px rgb(159, 0, 0) solid;
+    border-radius: 10px;
+}
+
+.right-column a{
+    background-color: rgb(93, 0, 0);
+    color: rgb(252, 167, 167);
+    padding: 10px 100px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.right-column {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.omschrijving {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 2px rgb(93, 0, 0) solid;
+}
+
+.plus-minpunten {
+    max-width: 400px;
+    background-color: rgb(254, 148, 148);
+    padding: 20px;
+    border: 2px rgb(93, 0, 0) solid;
+    border-radius: 5px;
+}
+
+h4 {
+    font-size: 200%;
+    text-align: center;
+}
+
+.gerelateerde-producten-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.product1 {
+    border: 2px rgb(93, 0, 0) solid;
+    border-radius: 5px;
+    max-width: 200px;
+    padding: 10px;
+}
+.gerelateerde-producten-container img {
+    width: 100%;
+}
+
+h5 {
+    font-size: 150%;
+}
